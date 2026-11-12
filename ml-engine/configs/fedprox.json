@@ -1,0 +1,8 @@
+{
+  "mode": "iid",
+  "seed": 42,
+  "epochs": 3,
+  "batch_size": 16,
+  "learning_rate": 0.01,
+  "federated": {"algorithm": "fedprox", "rounds": 20, "mu": 0.1}
+}

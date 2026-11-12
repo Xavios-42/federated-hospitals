@@ -1,0 +1,1 @@
+"""Federated hospitals research simulator."""

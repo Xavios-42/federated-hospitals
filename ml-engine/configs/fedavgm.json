@@ -1,0 +1,8 @@
+{
+  "mode": "iid",
+  "seed": 42,
+  "epochs": 3,
+  "batch_size": 16,
+  "learning_rate": 0.01,
+  "federated": {"algorithm": "fedavgm", "rounds": 20, "beta": 0.9, "server_lr": 1.0}
+}

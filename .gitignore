@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+data/
+results/
+.env
+.env.*
+!.env.example
+.tools/
+.chart-data-*/
+target/
+node_modules/
+dist/
+~$*.docx
+~$*.pptx

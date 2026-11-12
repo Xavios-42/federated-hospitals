@@ -1,0 +1,11 @@
+{
+  "test_seed": 42,
+  "seeds": [42, 43, 44],
+  "rounds": 20,
+  "training": {"epochs": 3, "batch_size": 16, "learning_rate": 0.01},
+  "strategies": [
+    {"algorithm": "fedavg"},
+    {"algorithm": "fedprox", "mu": 0.1},
+    {"algorithm": "fedavgm", "beta": 0.9, "server_lr": 1.0}
+  ]
+}
